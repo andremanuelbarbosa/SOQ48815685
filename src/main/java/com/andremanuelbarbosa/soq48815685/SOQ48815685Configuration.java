@@ -5,6 +5,7 @@ import io.dropwizard.logging.LoggingFactory;
 
 public class SOQ48815685Configuration extends Configuration {
 
+    @Override
     public synchronized LoggingFactory getLoggingFactory() {
 
         return new SOQ48815685Logging();
